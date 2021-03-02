@@ -1,33 +1,40 @@
 html {
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Stick', sans-serif;
-    background-color: #00539F;
+    background-color: blue;
 }
 
 body {
     width: 600px;
+    background-color: orangered;
     margin: 0 auto;
-    background-color: #ff9500;
     padding: 0 20px 20px;
     border: 5px solid black;
 }
 
 h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
     font-size: 60px;
     text-align: center;
-}
-
-p, li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 2px;
+    color: blueviolet;
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-shadow: 3px 3px 1px black;
 }
 
 img {
     display: block;
     margin: 0 auto;
 }
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 2;
+    color: black;
+}
+
+button {
+    background-color: inherit;
+}
+
+    
